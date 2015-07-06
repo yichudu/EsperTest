@@ -9,7 +9,14 @@ class Apple
 	
 	private int id;
 	private int price;
+	String color;
 
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
 	public int getId()
 	{return id;}
 
